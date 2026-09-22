@@ -7,12 +7,12 @@ class Basic{
   }
 }
 
-class Student(
+class Student{
   String name;
   String usn;
   double mark;
 
-  void Student(String name,String usn;double mark)
+   Student(String name,String usn,double mark)
     {
     this.name=name;
   this.usn=usn;
@@ -23,4 +23,4 @@ class Student(
     System.out.println("USN: " + usn);
     System.out.println("Mark: " + mark);
   }
-)
+}
