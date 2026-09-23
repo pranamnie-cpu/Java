@@ -9,7 +9,15 @@ class Calclu{
     System.out.println("Take B :");
     int b=sc.nextInt();
 
-    System.out.println("Sum :" +(a+b));
+      System.out.println("Enter operator (+, -, *, /):");
+        String op = sc.next();
+
+    int result=(op.equals("+"))?(a+b):
+                (op.equals("-"))?(a-b):
+                (op.equals("*"))?(a*b):
+                (op.equals("/"))?(a/b):0;
+      
+    System.out.println("Result :"+ result);
     
   }
 }
